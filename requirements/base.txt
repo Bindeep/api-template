@@ -15,7 +15,7 @@ Pillow==7.1.1
 prompt-toolkit==3.0.5
 psycopg2-binary==2.8.4
 ptyprocess==0.6.0
-Pygments==2.6.1
+Pygments==2.7.4
 PyJWT==1.7.1
 pytz==2019.3
 six==1.14.0
