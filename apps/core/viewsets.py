@@ -83,7 +83,7 @@ class CreateRetrieveViewSet(CreateViewSet, RetrieveViewSet):
     pass
 
 
-class ListUpdateViewWSet(ListViewSet, UpdateViewSet):
+class ListUpdateViewSet(ListViewSet, UpdateViewSet):
     pass
 
 
