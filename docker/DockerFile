@@ -1,0 +1,12 @@
+FROM python:3
+ENV PYTHONUNBUFFERED=1
+WORKDIR /code
+
+# installing dependencies
+COPY requirements/base.txt base.txt
+COPY requirements/dev.txt dev.txt
+RUN pip install --upgrade pip
+RUN pip install -r dev.txt
+
+# Copy project
+COPY . /code/
